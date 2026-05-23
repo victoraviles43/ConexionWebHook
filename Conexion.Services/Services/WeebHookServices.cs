@@ -25,6 +25,11 @@ namespace Conexion.Services.Services
 			_repository = repository;
 		}
 
+
+
+
+
+
 		public async Task GuardarEventosAsync(List<WebhookDto> eventos)
 		{
 			var lista = eventos.Select(x => new WebhookEven
@@ -48,6 +53,9 @@ namespace Conexion.Services.Services
 
 			await _repository.CrearMasivo(lista);
 		}
+
+
+
 
 
 
