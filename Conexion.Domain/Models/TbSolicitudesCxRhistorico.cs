@@ -1,0 +1,77 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Conexion.Domain.Models;
+
+public partial class TbSolicitudesCxRhistorico
+{
+    public int IntIdHistorico { get; set; }
+
+    public int? IntIdSolicitdCxR { get; set; }
+
+    public string? TxtSolicitante { get; set; }
+
+    public int? IntIdUsuario { get; set; }
+
+    public int? IntIdDepartamentos { get; set; }
+
+    public int? IntIdPlaza { get; set; }
+
+    public int? IntIdNegocio { get; set; }
+
+    public int? IntIdTipoServicio { get; set; }
+
+    public int? IntIdTipoGasto { get; set; }
+
+    public string? TxtFolio { get; set; }
+
+    public string? TxtConcepto { get; set; }
+
+    public string? TxtRazonSocial { get; set; }
+
+    public string? TxtBeneficiario { get; set; }
+
+    public int? IntIdProveedor { get; set; }
+
+    public string? TxtRfc { get; set; }
+
+    public int? IntTipoPago { get; set; }
+
+    public string? TxtRegistro { get; set; }
+
+    public string? TxtDoctoSoporte { get; set; }
+
+    public int? IntIdMoneda { get; set; }
+
+    public decimal? DblImporte { get; set; }
+
+    public decimal? DblIva { get; set; }
+
+    public string? TxtImporteTexto { get; set; }
+
+    public DateTime? FecDia { get; set; }
+
+    public DateTime? FecProxVencimiento { get; set; }
+
+    public DateTime? FecPago { get; set; }
+
+    public string? TxtComentarios { get; set; }
+
+    public int? IntIdStatus { get; set; }
+
+    public int? IntIdEmpresaPg { get; set; }
+
+    public int? IntIdRegCuenta { get; set; }
+
+    public bool? BolCongelado { get; set; }
+
+    public string? TxtMotivo { get; set; }
+
+    public bool? BolPriodidad { get; set; }
+
+    public int? IntIdBanco { get; set; }
+
+    public string? TxtClabe { get; set; }
+
+    public string? TxtCuenta { get; set; }
+}

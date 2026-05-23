@@ -1,0 +1,35 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Conexion.Domain.Models;
+
+public partial class TbCuentas11Kuspit
+{
+    public int LngId { get; set; }
+
+    public int? Col01 { get; set; }
+
+    public DateOnly? Col02 { get; set; }
+
+    public string? Col03 { get; set; }
+
+    public string? Col04 { get; set; }
+
+    public string? Col05 { get; set; }
+
+    public string? Col06 { get; set; }
+
+    public string? Col07 { get; set; }
+
+    public string? Col08 { get; set; }
+
+    public string? Col09 { get; set; }
+
+    public decimal? Col10 { get; set; }
+
+    public decimal? Col11 { get; set; }
+
+    public decimal? Col12 { get; set; }
+
+    public string? Col13 { get; set; }
+}
